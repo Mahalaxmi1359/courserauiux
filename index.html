@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Styles Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <!-- HEADER -->
+  <header>
+    <h1>Alex Styles</h1>
+    <p>Graphic Designer & Visual Storyteller</p>
+  </header>
+ 
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Alex Styles</strong>, a creative graphic designer passionate about crafting visually stunning digital experiences. My expertise includes branding, UI/UX design, and digital illustrations.</p>
+  </section>
+ 
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="project" data-project="Project 1: Branding Design">Project 1</div>
+      <div class="project" data-project="Project 2: Web UI/UX">Project 2</div>
+      <div class="project" data-project="Project 3: Illustration Series">Project 3</div>
+      <div class="project" data-project="Project 4: Marketing Materials">Project 4</div>
+    </div>
+  </section>
+ 
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+ 
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <p id="modalText"></p>
+    </div>
+  </div>
+ 
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
